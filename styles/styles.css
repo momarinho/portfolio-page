@@ -328,8 +328,14 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .rn {
   width: 50%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .vue {
+  width: 38%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .flutter {
   width: 30%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 22%;
 }
 
 .stat-title {
@@ -724,7 +730,7 @@ section {
     margin: 0 auto;
   }
   .right-header .name {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
     text-align: center;
     padding-top: 3rem;
   }
@@ -931,5 +937,11 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* styles for screens with a minimum width of 600px */
+  body {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=styles.css.map */
